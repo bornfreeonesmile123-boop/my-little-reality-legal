@@ -1,0 +1,219 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>Support | My Little Reality</title>
+  <style>
+    :root {
+      --bg: #f9edf0;
+      --paper: #fffdfb;
+      --pink: #f2d7e0;
+      --ink: #4d4146;
+      --muted: #786b70;
+      --border: #d8bdc7;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      padding: 48px 18px;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: Georgia, "Times New Roman", serif;
+      line-height: 1.7;
+    }
+
+    .window {
+      max-width: 760px;
+      margin: auto;
+      background: var(--paper);
+      border: 1px solid var(--border);
+      box-shadow: 7px 7px 0 var(--pink);
+    }
+
+    .titlebar {
+      padding: 12px 18px;
+      background: var(--pink);
+      border-bottom: 1px solid var(--border);
+      font-family: Arial, sans-serif;
+      font-size: 12px;
+      letter-spacing: 1px;
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+    }
+
+    main { padding: 36px; }
+
+    h1 {
+      font-size: 30px;
+      font-weight: normal;
+      margin: 0 0 10px;
+    }
+
+    h2 {
+      font-size: 20px;
+      font-weight: normal;
+      margin-top: 36px;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 8px;
+    }
+
+    h3 {
+      font-size: 16px;
+      margin-bottom: 6px;
+    }
+
+    p { margin-top: 8px; }
+
+    .intro, .small {
+      color: var(--muted);
+    }
+
+    .contact {
+      padding: 18px;
+      background: #fcf3f5;
+      border: 1px solid var(--border);
+      margin-top: 24px;
+      overflow-wrap: anywhere;
+    }
+
+    a { color: #985b73; }
+
+    nav {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+      margin-top: 28px;
+      font-size: 14px;
+    }
+
+    footer {
+      margin-top: 42px;
+      padding-top: 16px;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 12px;
+      text-align: center;
+    }
+
+    @media (max-width: 600px) {
+      body { padding: 20px 12px; }
+      main { padding: 24px 20px; }
+      h1 { font-size: 26px; }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="window">
+    <div class="titlebar">
+      <span>MY LITTLE REALITY</span>
+      <span>HELP DESK ♡</span>
+    </div>
+
+    <main>
+      <h1>How can we help?</h1>
+
+      <p class="intro">
+        Welcome to My Little Reality's little help desk.
+        Whether you have a question, need assistance,
+        or simply want to share feedback, we're here to help.
+      </p>
+
+      <section class="contact">
+        <strong>Get in touch</strong>
+        <p>
+          For technical issues, subscription questions,
+          or general support, please email:
+        </p>
+        <a href="mailto:mylittlereality.support@gmail.com">
+          mylittlereality.support@gmail.com
+        </a>
+        <p class="small">
+          Please include a brief description of your issue
+          and your device type when relevant.
+          Never send passwords or payment card details.
+        </p>
+      </section>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>What is My Little Reality?</h3>
+      <p>
+        My Little Reality is a creative self-reflection app
+        featuring affirmations, guided exercises,
+        immersive stories, and magazine-style content.
+        It offers a quiet space to explore your thoughts
+        and imagine new possibilities.
+      </p>
+
+      <h3>How do I manage or cancel my subscription?</h3>
+      <p>
+        On your iPhone, open Settings, tap your name,
+        then select Subscriptions. Find My Little Reality
+        to manage or cancel your subscription.
+        Cancellation takes effect at the end of your
+        current subscription period.
+      </p>
+
+      <h3>How does the free trial work?</h3>
+      <p>
+        Eligible new subscribers may receive a
+        3-day free trial. The subscription automatically
+        renews at the displayed price unless cancelled.
+        Trial eligibility and billing details are
+        shown before purchase.
+      </p>
+
+      <h3>How do I restore my purchase?</h3>
+      <p>
+        Open My Little Reality and use the
+        Restore Purchases option where available.
+        Make sure you're signed in with the
+        Apple Account used for the original purchase.
+        If you still need help, contact us by email.
+      </p>
+
+      <h3>How can I request a refund?</h3>
+      <p>
+        Purchases made through Apple's App Store
+        are handled by Apple.
+        You can request a refund at
+        <a href="https://reportaproblem.apple.com/">
+          reportaproblem.apple.com
+        </a>.
+      </p>
+
+      <h3>Is My Little Reality a mental health service?</h3>
+      <p>
+        No. My Little Reality provides creative content
+        and exercises for personal reflection.
+        It does not provide therapy, medical advice,
+        or guaranteed outcomes, and is not a substitute
+        for professional mental health care.
+      </p>
+
+      <h2>Legal & Privacy</h2>
+      <p>
+        You can learn more about how the app works
+        and how information is handled here:
+      </p>
+
+      <nav>
+        <a href="./privacy.html">Privacy Policy</a>
+        <a href="./terms.html">Terms of Use</a>
+      </nav>
+
+      <footer>
+        © 2026 My Little Reality<br>
+        Made with care, for the life you're imagining.
+      </footer>
+    </main>
+  </div>
+</body>
+</html>
